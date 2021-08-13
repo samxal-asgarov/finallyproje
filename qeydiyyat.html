@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-top">
+      <div><a href="#">Dasinmasina icaze yoxdur</a></div>
+      <div><a href="#">Tez-tez verilen suallar</a></div>
+      <div style="flex-basis: 200px"></div>
+      <div class="animation">
+        <span id="usd">1 USD - 1.70 AZN</span>
+        <!-- <span id="try">1 TRY - 0.20 AZN </span> -->
+      </div>
+      <div class="phone">
+        <span id="phone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-telephone" viewBox="0 0 16 16">
+            <path
+              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+          </svg><a href="tel:+994507007002">+994507007002</a>
+        </span>
+      </div>
+      <div>
+        <select id="lang">
+          <option value="aze">AZE</option>
+          <option value="eng">ENG</option>
+          <option value="rus">RUS</option>
+        </select>
+      </div>
+      <div>
+        <button class="btn btn-primary">Qeydiyyat</button>
+      </div>
+    </div>
+    <div class="container header-bottom">
+      <div>
+        <a href="#"><img src="https://velocity.az/front/img/logo/logo.svg" alt="" /></a>
+      </div>
+      <div><a href="./index1.html" target="blank">Haqqimizda</a></div>
+      <div><a href="#">Tarifler</a></div>
+      <div><a href="#">Magazalar</a></div>
+      <div><a href="#">Xidmetler</a></div>
+      <div><a href="#">Yenilikler</a></div>
+      <div><a href="#">Elaqe</a></div>
+      <div></div>
+      <div></div>
+      <div></div>
+
+      <div class="account">
+        <a style="display: flex;align-items: center;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18"
+            height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+            <path
+              d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+          </svg>
+          <span>Hesabim</span></a>
+      </div>
+      <div>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+            class="bi bi-cart-x-fill" viewBox="0 0 16 16">
+            <path
+              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7.354 5.646 8.5 6.793l1.146-1.147a.5.5 0 0 1 .708.708L9.207 7.5l1.147 1.146a.5.5 0 0 1-.708.708L8.5 8.207 7.354 9.354a.5.5 0 1 1-.708-.708L7.793 7.5 6.646 6.354a.5.5 0 1 1 .708-.708z" />
+          </svg></a>
+      </div>
+      <div>
+        <svg id="circule" xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
+          class="bi bi-circle" viewBox="0 0 16 16">
+          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        </svg>
+      </div>
+    </div>
+  </header>
+  <div class="qeydiyyat">
+    <div class="container qeyd">
+      <div class="leftinp">
+        <div class="text">
+          <div class="headingac">
+            <h2>Qeydiyyatdan kec</h2>
+          </div>
+          <div class="acct">
+            <p>Əgər hesabınız yoxdursa aşağıdakı məlumatları dolduraraq yeni hesab yaradın</p>
+          </div>
+        </div>
+       
+        <div class="accbutton">
+          <a href="#"><button>Fiziki Sexs</button></a>
+          <a href="view-source:https://velocity.az/az/signup.html"><button>Huquqi Sexs</button></a>
+        </div>
+        <div style="display: flex;flex-wrap: nowrap;" class="row acc-row">
+          <div class="col-6">
+            <div class="wrapper">
+              <div class="input-data">
+                <input type="text" required>
+                <label for="name">Ad</label>
+              </div>
+              <div class="error">Adinizi bos qoya bilmersiz</div>
+            </div>
+            <div class="wrapper">
+              <div class="input-data">
+                <input type="text" required>
+                <label for="name">Soyad</label>
+              </div>
+  
+              <div class="error">Soyadinizi bos qoya bilmersiz</div>
+            </div>
+            <div class="wrapper">
+              <div class="input-data">
+                <input type="email" required>
+                <label for="name">E-poçt ünvanı</label>
+              </div>
+              <div class="error">Emailinizi bos qoya bilmersiz</div>
+            </div>
+  
+  
+          </div>
+          <div class="col-6">
+            <div class="wrapper">
+              <div class="input-data">
+                <input type="number" required>
+                <label for="name">Mobil nomre</label>
+              </div>
+              <div class="error">Mobil nomreninizi bos qoya bilmersiz</div>
+            </div>
+            <div class="wrapper">
+              <div class="input-data">
+                <input type="password" required>
+                <label for="name">Sifre</label>
+              </div>
+  
+              <div class="error">Sifre en az 6 simvol olmalidir</div>
+            </div>
+            <div class="wrapper">
+              <div class="input-data">
+                <input type="password" required>
+                <label for="name">Tekrar Sifre</label>
+              </div>
+  
+              <div class="error">Sifre en az 6 simvol olmalidir</div>
+            </div>
+  
+  
+          </div>
+        </div>
+        <div class="foot">
+          <div class="container">
+            <div class="row footrow">
+              <div class="col-6">
+                <div style=  "margin-left: -59px;"   class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                      Isdifadeci sertleri ile raziyam
+                  </label>
+                  <div class="error"><p> <mark style="color:#C9FFC7;">Isdifadeci sertleri</mark>qebul etmelidir</p></div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div style="    margin-left: 48px" class="youtube">
+                  <a style="display: flex;" href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-play" viewBox="0 0 16 16">
+                    <path d="M10.804 8 5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 0 1 0 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z"/>
+                  </svg> <span>Video telimat</span> </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <div class="footbutton">
+          <button type="submit">Qeydiyyatdan kec</button>
+        </div>
+      </div>
+      <div class="sideright">
+        <div class="sidetittle">
+          <h2 style="color:black;">Artiq Hesabiniz Var?</h2>
+        </div>
+        <div class="btnside">
+          <button>Daxil ol</button>
+        </div>
+      </div>
+      </div>
+     
+
+</div>
+<footer style="margin-top: 60px;" class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="heading">
+          <h1 class="heading__title">Kömək lazımdır?</h1>
+        </div>
+        <ul class="footer__contact">
+          <li>
+            <i style="margin-left: -40px;" class="icon-map-marker_two_tone icon-lg icons"><span class="path1"></span><span
+                class="path2"></span><span class="path3"></span></i>
+            <a href="#"><span>Bakı şəh.,AZ1072, Nərimanov rayonu Koroğlu Rəhimov küçəsi Gəncə şəhəri Həsən Əliyev
+                pr.75</span></a>
+          </li>
+          <li>
+            <i style="margin-left: -40px;" class="icon-email_two_tone icon-lg icons"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span></i>
+            
+                <a  href="#"><span> info@velocity.az </span></a>
+
+          </li>
+          <li>
+            <i style="margin-left: -40px;" class="icon-phone_two_tone icon-lg icons"><span class="path1"></span><span class="path2"></span><span
+                class="path3"></span></i>
+            <a  href="#">+994123108707</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <ul style="margin-left:20px;margin-top: 30px;" class="footer__nav">
+          <li>
+            <a href="#">Daşınmasına icazə yoxdur</a>
+          </li>
+          <li>
+            <a href="#">Tez-tez verilən suallar</a>
+          </li>
+          <li>
+            <a href="#">Gizlilik siyasəti</a>
+          </li>
+          <li>
+            <a href="#">İstifadəçi razılaşması</a>
+          </li>
+          <li>
+            <a href="#">Sifariş et qaydaları</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="ftrbtm">
+        <img  src="https://velocity.az/front/img/logo/logo-white.svg" alt="">
+        <p style="color: rgba(255,255,255,0.7); margin-top: 20px;"  class="copyright">©️ 2021 Velocity LTD. Bütün hüquqlar qorunur</p>
+    </div>
+    <div  class="social-icons d-none d-md-block">
+        <a  href="https://www.facebook.com/" target="blank" class="social-icons_link"><i class="icon-facebook"></i></a>
+        <a href="https://www.instagram.com/" target="blank" class="social-icons_link"><i class="icon-instagram"></i></a>
+        <a style="margin-right: 150px;" href="https://www.youtube.com/" target="blank" class="social-icons_link"><i class="icon-youtube"></i></a>
+    </div>
+</div>
+</footer>
+
+</body>
+
+</html>

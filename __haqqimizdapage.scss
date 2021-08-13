@@ -1,0 +1,32 @@
+.info{
+    
+    border:1px solid none;
+    padding: 48px 48px 84px;
+    margin: 10%;
+    width: 600px;
+    background-image: url(https://velocity.az/front/img/vector/Vector-about.svg);
+    background-color: #3B4046 !important;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    margin-left: 220px;
+    position: relative;
+    flex-wrap: wrap;
+    
+    h2{
+        margin-right: 395px;
+    }
+     
+  img{
+
+      position: absolute;
+      top: 50%;
+      left: 30%;
+      z-index: -11111;
+    border-radius: 8px;
+
+  }
+}
+
+
+

@@ -1,0 +1,101 @@
+.tariflerrr{
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10%;
+    border-radius: 15px;
+    background-color: #3B4046 !important;;
+    #span{
+        color: #C9FFC7;;
+    }
+}
+.tarifler{
+    margin: 1%;
+   display: flex;
+
+ 
+   
+  
+}
+
+.tarifler-about{
+    width: 80%;
+    height: 100%;
+    border: 1px solid none;
+    justify-content:flex-start;
+    text-align:justify;
+ 
+ 
+    margin:2%;
+    
+    
+    
+}
+.one{
+    color:#c9ffc7;
+    margin-left: 11px;
+    font-size: 40px;
+    line-height: 56px;
+}
+
+.items{
+    display: flex;
+    flex-wrap: nowrap;
+    
+    align-items: center;
+}
+.item{
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    
+   
+}
+.tarif-item{
+    height: 100px;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-radius: 8px;
+    background-color: #3B4046;
+    &:hover{
+        border-color:#c9ffc7 ;
+        .svg{
+           color: #c9ffc7;
+        }
+    }
+   
+}
+.items{
+    height: inherit;
+
+    
+   
+}
+
+.tarif-item{
+    margin-bottom: 20px;
+}
+
+.two{
+   
+    
+    button{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        border-color: white;
+        border-radius: 5%;
+        margin-left: 50%;
+    }
+}
+.three{
+    button{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin-left: 68%;
+        border-color: white;
+        border-radius: 5%;
+    }
+}
+.container{
+    width: 86%;
+}
