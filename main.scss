@@ -1,20 +1,29 @@
-@import"./header";
+
 @import"./scss/bootsrap/scss/mixins";
 @import"./scss/bootsrap/scss/functions";
 @import"./scss/bootsrap/scss/variables";
 @import"./scss/bootsrap/scss/buttons";
 @import"./scss/bootsrap/scss/grid";
-@import "./scss/bootsrap/scss/navbar";
-@import"./_button";
-@import"./_variables";
-@import"./carusel";
-@import"./calculyator";
-@import"./neceisleyrik";
-@import"./_tarifler";
-@import"./scss/bootsrap/scss/utilities";
-@import"./_shop";
-@import"./_yenilikler";
-@import"./_footer";
-@import"./_haqqimizdapage";
+@import "./scss/bootsrap/scss/mixins/grid";
+@import"./scss/bootsrap/scss/card";
 @import"./scss/bootsrap/scss/forms";
-@import"./_qeydiyyat"
+@import"./scss/bootsrap/scss/mixins/forms";
+
+
+
+@import "./_navbar";
+@import "./_wrapper";
+@import "./_wrapper2";
+@import"./_category";
+@import "./_watchstory";
+@import"./_indexabout";
+@import"./_subscribe";
+@import"./_indexinstagram";
+@import"./_footer";
+@import"./_catalog";
+@import"./_delivery";
+@import"./_about";
+@import"./_contact";
+@import"./_details";
+
+

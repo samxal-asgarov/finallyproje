@@ -2,793 +2,452 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="stylesheet" href="index.css" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-
-
-  <!-- Demo styles -->
-  <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
-  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToyStore</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./navbar.js">
 
 </head>
 
 <body>
-  <header class="header">
-    <div class="container header-top">
-      <div><a href="#">Dasinmasina icaze yoxdur</a></div>
-      <div><a href="#">Tez-tez verilen suallar</a></div>
-      <div style="flex-basis: 200px"></div>
-      <div class="animation">
-        <span id="usd">1 USD - 1.70 AZN</span>
-        <!-- <span id="try">1 TRY - 0.20 AZN </span> -->
+  <header>
+    <main class="mainhead" style="display: flex;">
+      <div class="logo">
+        <a href="./index.html">ToyStore</a>
       </div>
-      <div class="phone">
-        <span id="phone"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-            class="bi bi-telephone" viewBox="0 0 16 16">
-            <path
-              d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
-          </svg><a href="+994507007002">+994507007002</a>
-        </span>
+      <div class="nav">
+        <ul>
+          <li> <a href="./catalog.html">Catalog</a> </li>
+          <li><a href="./delivery.html">Delivery</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contacts</a></li>
+        </ul>
       </div>
-      <div>
-        <select id="lang">
-          <option value="aze">AZE</option>
-          <option value="eng">ENG</option>
-          <option value="rus">RUS</option>
-        </select>
+      <div class="commerce">
+        <ul>
+
+          <li><a href=""> <img
+                src="https://assets.website-files.com/5badda2935e11303a89a461e/5baf75c3bf02346640399fec_cart-icon.svg"
+                alt=""> </a></li>
+          <div class="count">
+            <span>0</span>
+          </div>
+          <li><a id="checkmenu" href=""><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+                class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+              </svg></a></li>
+        </ul>
       </div>
-      <div>
-        <a href="./qeydiyyat.html">
-          <button class="btn btn-primary">Qeydiyyat</button>
-        </a>
+
+    </main>
+  </header>
+  <section>
+
+    <div class="wrapper" style="display: flex;" >
+      <div class="wrap-info animate__animated animate__zoomIn">
+        <div class="title">
+          <span>Say Hello to ToyStore!</span>
+        </div>
+        <div class="inf">
+          <span>You can find every product you want here</span>
+        </div>
+
+
+        <a href="">Open Catalog</a>
+      </div>
+
+    </div>
+  
+
+
+
+  </section>
+  <section>
+    <div class="wrap" style="display: flex;">
+      <div class="wrap1 animate__animated animate__zoomIn" style="display: flex;">
+        <img
+          src="https://assets.website-files.com/5badda2935e11303a89a461e/5badf21356ac5470c84dfbf4_33903-2-plush-toy-transparent-image-min-p-500.png"
+          alt="">
+        <div class="wrap1info">
+          <h1>Stuffed Animals</h1>
+          <a href="">Shop Now</a>
+        </div>
+      </div>
+      <div class="wrap2 animate__animated animate__zoomIn" style="display: flex;">
+        <div class="wrap2info">
+          <h1>Wooden Toys</h1>
+          <a href="">Shop Now</a>
+        </div>
+
+        <img
+          src="https://assets.website-files.com/5badda2935e11303a89a461e/5badf2131f2da24c02171c72_33727-9-wooden-toy-transparent-image-min-p-500.png"
+          alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="container category">
+      <div class="row">
+        <div class="col category-head">
+          <h1>Stuffed Animals</h1>
+        </div>
+
+        <div class="rightarrow" style="text-align: end;display: flex;
+          justify-content: end;
+          align-items: center;" class="col category-head-a">
+          <a class="arrow" href="./catalog.html">
+            See All Toys
+          </a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+          </svg>
+        </div>
+      </div>
+      <div class="categoryshop">
+        <div class="shopcolor">
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row animate__animated animate__zoomIn" " >
+        <div class=" col">
+        <div class="card">
+          <img
+            src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae12942ca03553bf0d536c_33903-2-plush-toy-transparent-image-min.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Teddy Bear</h5>
+            <span>$ 30.00 USD</span>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae124e03ef144f2b4a9bef_33837-2-plush-toy-transparent-background-min.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mega Plush Toy</h5>
+            <span>$ 30.00 USD</span>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae0f7a1f2da258291736c4_33908-7-plush-toy-file-min.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cute Dog</h5>
+            <span>$ 30.00 USD</span>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae0f1835e11376299a8089_33878-5-plush-toy-transparent-min.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Little Friend</h5>
+            <span>$ 30.00 USD</span>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <div class="container category ctg">
+      <div class="row">
+        <div class="col category-head">
+          <h1>Wooden Toys</h1>
+        </div>
+
+        <div style="text-align: end;display: flex;
+      justify-content: end;
+      align-items: center;" class="col category-head-a">
+          <a class="arrow" href="./catalog.html">
+            See All Toys
+          </a> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+          </svg>
+        </div>
+      </div>
+      <div class="categoryshop">
+        <div class="shopcolor">
+
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row animate__animated animate__zoomIn">
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf529c7a16ad5b5fd9fdf3_33727-9-wooden-toy-transparent-image-min.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Happy Flower</h5>
+              <span>$ 38.00 USD</span>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf525bbf02340f30398cb3_33505-6-wooden-toy-clipart-min.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Lift Machine</h5>
+              <span>$ 30.00 USD</span>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf522457091399591a83fe_33631-9-wooden-toy-photo-min.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wooden Camera</h5>
+              <span>$ 30.00 USD</span>
+
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="  https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf51fc570913c1d31a83f6_33504-4-wooden-toy-transparent-min.png"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Little Rabbit</h5>
+              <span>$ 30.00 USD</span>
+
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
-    <div class="container header-bottom">
-      <div>
-        <a href="#"><img src="https://velocity.az/front/img/logo/logo.svg" alt="" /></a>
-      </div>
-      <div><a href="./haqqimizda.html">Haqqimizda</a></div>
-      <div><a href="#">Tarifler</a></div>
-      <div><a href="#">Magazalar</a></div>
-      <div><a href="#">Xidmetler</a></div>
-      <div><a href="#">Yenilikler</a></div>
-      <div><a href="#">Elaqe</a></div>
-      <div></div>
-      <div></div>
-      <div></div>
-
-      <div class="account">
-        <a style="display: flex;align-items: center;" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="18"
-            height="18" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+  </section>
+  <section>
+    <div class="watchstory story">
+      <div class="storyabout animate__animated animate__zoomIn">
+        <div class="tittle">
+          About The Shop
+        </div>
+        <h1>Watch Our Story</h1>
+        <p>There is no magic formula to write perfect ad copy. It is based on a number of factors, including ad
+          placement, demographic, even the consumer’s mood.</p>
+        <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-play-fill" viewBox="0 0 16 16">
             <path
-              d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
-          </svg>
-          <span>Hesabim</span></a>
-      </div>
-      <div>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
-            class="bi bi-cart-x-fill" viewBox="0 0 16 16">
-            <path
-              d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7.354 5.646 8.5 6.793l1.146-1.147a.5.5 0 0 1 .708.708L9.207 7.5l1.147 1.146a.5.5 0 0 1-.708.708L8.5 8.207 7.354 9.354a.5.5 0 1 1-.708-.708L7.793 7.5 6.646 6.354a.5.5 0 1 1 .708-.708z" />
+              d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
           </svg></a>
       </div>
-      <div>
-        <svg id="circule" xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor"
-          class="bi bi-circle" viewBox="0 0 16 16">
-          <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-        </svg>
-      </div>
     </div>
-  </header>
-  <main>
-    <div class="container carusel">
-      <div class="carousel" data-flickity='{ "wrapAround": true,"autoPlay": true }'>
-        <div class="carousel-cell img-1">
-          <h1>
-            Amerikadan sifaris et,<br />
-            biz getirek!
-          </h1>
-          <p>
-            Türkiyənin bütün onlayn mağazalarından Azərbaycanın bütün <br />
-            bölgələrinə çatdırılma
-          </p>
 
-          <button>Etrafli</button>
-        </div>
-        <div class="carousel-cell img-2">
-          <h1>
-            Diqqət !!! Türkiyə <br />
-            Ünvanımız Dəyişdi
-          </h1>
-          <p>
-            Xidmət səviyyəsinin yüksəldilməsi məqsədiylə Velocity Türkiyə
-            anbarı <br />
-            dəyişdirildi
-          </p>
-
-          <button>Etrafli</button>
-        </div>
-        <div class="carousel-cell img-3">
-          <h1>
-            Velocity.az ilə Rahat və <br />
-            təhlükəsiz çatdırılma
-          </h1>
-          <p>Velocity.az fəaliyyətə başladı</p>
-
-          <button>Etrafli</button>
-        </div>
-        <div class="carousel-cell img-4">
-          <h1>
-            Türkiyədən Azərbaycana <br />
-            çatdırılma
-          </h1>
-          <p>
-            Türkiyənin bütün onlayn mağazalarından Azərbaycanın bütün <br />
-            bölgələrinə çatdırılma
-          </p>
-
-          <button>Etrafli</button>
-        </div>
-      </div>
-    </div>
-  </main>
-
-  
+  </section>
   <section>
+    <div class="aboutindex ">
+      <div class="aboutintro">
+        <div class="tittle">Made For WebFlow</div>
+        <h2>Simple & Colorful Ecommerce Template for Your Business</h2>
+      </div>
+      <div class="about">
         <div class="container">
-            <div class="Kalkulyator">
-
-                <h2 class="Kalkulyator__h2">Kalkulyator</h2>
-                <p class="Kalkulyator__p">Bağlamanın hər hansı bir tərəfinin ölçüsü 1m və daha çox olarsa, bağlamanın
-                    həm həcm, həm də fiziki çəkisi hesablanır. Hansı çəki yüksək olarsa, daşınma haqqı ona əsasən
-                    hesablanır.</p>
-                <div class="row">
-
-                    <div class="col-lg-6">
-                        <div class="calc-left-side">
-                            <div class="package-weight" style="margin-left: -35px;">
-                                <h5 style="margin-left: -120px; font-size: 16px;">Ölkə Seçin</h5>
-                                <button> <svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path
-                                            d="M24 0H6C2.68629 0 0 2.68629 0 6V24C0 27.3137 2.68629 30 6 30H24C27.3137 30 30 27.3137 30 24V6C30 2.68629 27.3137 0 24 0Z"
-                                            fill="#E30A17" />
-                                        <path
-                                            d="M12.5 22C16.366 22 19.5 18.866 19.5 15C19.5 11.134 16.366 8 12.5 8C8.63401 8 5.5 11.134 5.5 15C5.5 18.866 8.63401 22 12.5 22Z"
-                                            fill="white" />
-                                        <path
-                                            d="M15 21C18.0376 21 20.5 18.3137 20.5 15C20.5 11.6863 18.0376 9 15 9C11.9624 9 9.5 11.6863 9.5 15C9.5 18.3137 11.9624 21 15 21Z"
-                                            fill="#E30A17" />
-                                        <path d="M18.5 15L24.5 16.8543L20.7908 12V18L24.5 13.1457L18.5 15Z"
-                                            fill="white" />
-                                    </svg>
-                                    Türkiyə</button>
-                                <button><svg width="30" height="30" viewBox="0 0 30 30" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <g clip-path="url(#clip0)">
-                                            <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="-1" y="0"
-                                                width="31" height="30">
-                                                <path
-                                                    d="M23.9873 0H5.9873C2.6736 0 -0.0126953 2.68629 -0.0126953 6V24C-0.0126953 27.3137 2.6736 30 5.9873 30H23.9873C27.301 30 29.9873 27.3137 29.9873 24V6C29.9873 2.68629 27.301 0 23.9873 0Z"
-                                                    fill="#B22234" />
-                                            </mask>
-                                            <g mask="url(#mask0)">
-                                                <path
-                                                    d="M23.9873 0H5.9873C2.6736 0 -0.0126953 2.68629 -0.0126953 6V24C-0.0126953 27.3137 2.6736 30 5.9873 30H23.9873C27.301 30 29.9873 27.3137 29.9873 24V6C29.9873 2.68629 27.301 0 23.9873 0Z"
-                                                    fill="#B22234" />
-                                                <path
-                                                    d="M-0.0126953 3.46118H49.9873H-0.0126953ZM49.9873 8.07785H-0.0126953H49.9873ZM-0.0126953 12.6917H49.9873H-0.0126953ZM49.9873 17.3084H-0.0126953H49.9873ZM-0.0126953 21.9223H49.9873H-0.0126953ZM49.9873 26.539H-0.0126953H49.9873Z"
-                                                    fill="black" />
-                                                <path
-                                                    d="M49.9873 27.6917H-0.0126953V25.3834H49.9873V27.6917ZM49.9873 23.0778H-0.0126953V20.7695H49.9873V23.0778ZM49.9873 18.4611H-0.0126953V16.1528H49.9873V18.4611ZM49.9873 13.8472H-0.0126953V11.5389H49.9873V13.8472ZM49.9873 9.23057H-0.0126953V6.92224H49.9873V9.23057ZM49.9873 4.61668H-0.0126953V2.30835H49.9873V4.61668Z"
-                                                    fill="white" />
-                                                <path d="M22.7873 0H-0.0126953V16.1528H22.7873V0Z" fill="#3C3B6E" />
-                                                <path
-                                                    d="M1.89066 0.69165L2.4351 2.3611L1.00732 1.33054H2.7601L1.34344 2.36387L1.89066 0.69165Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M1.88983 3.92236L2.43428 5.59181L1.00928 4.55847H2.76205L1.33983 5.59181L1.88983 3.92236Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M1.89047 7.15259L2.43492 8.82203L1.0127 7.7887H2.76547L1.34325 8.82203L1.89047 7.15259Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M1.89047 10.3833L2.43492 12.0555L1.0127 11.0222H2.76547L1.34325 12.0555L1.89047 10.3833Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M1.89047 13.6167L2.43492 15.2861L1.0127 14.2528H2.76547L1.34325 15.2861L1.89047 13.6167Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M3.78467 2.30835L4.32911 3.97779L2.90967 2.94446H4.66245L3.24578 3.97779L3.78467 2.30835Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M3.785 5.53882L4.32945 7.20826L2.90723 6.17493H4.66L3.23778 7.20826L3.785 5.53882Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M3.785 8.76953L4.32945 10.439L2.90723 9.40564H4.66L3.23778 10.439L3.785 8.76953Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M3.785 12L4.32945 13.6694L2.90723 12.6361H4.66L3.23778 13.6694L3.785 12Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M5.68735 0.69165L6.23179 2.36109L4.80957 1.32776H6.56235L5.14013 2.36109L5.68735 0.69165Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M5.68735 3.92236L6.23179 5.59181L4.80957 4.55847H6.56235L5.14013 5.59181L5.68735 3.92236Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M5.68735 7.15259L6.23179 8.82203L4.80957 7.7887H6.56235L5.14013 8.82203L5.68735 7.15259Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M5.68735 10.3833L6.23179 12.0527L4.80957 11.0194H6.56235L5.1429 12.0555L5.68735 10.3833Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M5.68735 13.6167L6.23179 15.2861L4.80957 14.2528H6.56235L5.14013 15.2861L5.68735 13.6167Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M7.58969 2.30835L8.13414 3.97779L6.71191 2.94446H8.46469L7.04247 3.97779L7.58969 2.30835Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M7.58969 5.53882L8.13414 7.20826L6.71191 6.17493H8.46469L7.04247 7.20826L7.58969 5.53882Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M7.58969 8.76953L8.13414 10.439L6.71191 9.40564H8.46469L7.04247 10.439L7.58969 8.76953Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M7.58969 12L8.13414 13.6694L6.71191 12.6361H8.46469L7.04247 13.6694L7.58969 12Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M9.48471 0.69165L10.0292 2.36109L8.60693 1.32776H10.3597L8.93749 2.36109L9.48471 0.69165Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M9.48471 3.92236L10.0292 5.59181L8.60693 4.55847H10.3597L8.93749 5.59181L9.48471 3.92236Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M9.48471 7.15259L10.0292 8.82203L8.60693 7.7887H10.3597L8.93749 8.82203L9.48471 7.15259Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M9.48471 10.3833L10.0292 12.0527L8.60693 11.0194H10.3597L8.94027 12.0555L9.48471 10.3833Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M9.48471 13.6167L10.0292 15.2861L8.60693 14.2528H10.3597L8.93749 15.2861L9.48471 13.6167Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M11.3871 2.30835L11.9315 3.97779L10.5093 2.94446H12.2648L10.8426 3.97779L11.3871 2.30835Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M11.3871 5.53882L11.9315 7.20826L10.5093 6.17493H12.2648L10.8426 7.20826L11.3871 5.53882Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M11.3871 8.76953L11.9315 10.439L10.5093 9.40564H12.2648L10.8426 10.439L11.3871 8.76953Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M11.3871 12L11.9315 13.6694L10.5093 12.6361H12.2648L10.8426 13.6694L11.3871 12Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M13.2894 0.69165L13.8338 2.36109L12.4116 1.32776H14.1644L12.7422 2.36109L13.2894 0.69165Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M13.2894 3.92236L13.8338 5.59181L12.4116 4.55847H14.1644L12.7422 5.59181L13.2894 3.92236Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M13.2894 7.15259L13.8338 8.82203L12.4116 7.7887H14.1644L12.7422 8.82203L13.2894 7.15259Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M13.2894 10.3833L13.8338 12.0527L12.4116 11.0194H14.1644L12.7422 12.0555L13.2894 10.3833Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M13.2894 13.6167L13.8338 15.2861L12.4116 14.2528H14.1644L12.7422 15.2861L13.2894 13.6167Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M15.1846 2.30835L15.729 3.97779L14.3096 2.94446H16.0624L14.6401 3.97779L15.1846 2.30835Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M15.1844 5.53882L15.7289 7.20826L14.3066 6.17493H16.0594L14.6372 7.20826L15.1844 5.53882Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M15.1844 8.76953L15.7289 10.439L14.3066 9.40564H16.0594L14.6372 10.439L15.1844 8.76953Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M15.1844 12L15.7289 13.6694L14.3066 12.6361H16.0594L14.6372 13.6694L15.1844 12Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M17.0877 0.69165L17.6322 2.3611L16.21 1.33054H17.9627L16.5433 2.36387L17.0877 0.69165Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M17.0877 3.92236L17.6322 5.59181L16.21 4.56125H17.9627L16.5433 5.59459L17.0877 3.92236Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M17.0877 7.15259L17.6322 8.82203L16.21 7.79148H17.9627L16.5433 8.82481L17.0877 7.15259Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M17.0877 10.3833L17.6322 12.0527L16.21 11.0222H17.9627L16.5433 12.0555L17.0877 10.3833Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M17.0877 13.6167L17.6322 15.2861L16.21 14.2528H17.9627L16.5433 15.2861L17.0877 13.6167Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M18.9901 2.30835L19.5345 3.97779L18.1123 2.94446H19.8651L18.4429 3.97779L18.9901 2.30835Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M18.9901 5.53882L19.5345 7.20826L18.1123 6.17493H19.8651L18.4429 7.20826L18.9901 5.53882Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M18.9901 8.76953L19.5345 10.439L18.1123 9.40564H19.8651L18.4429 10.439L18.9901 8.76953Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M18.9901 12L19.5345 13.6694L18.1123 12.6361H19.8651L18.4429 13.6694L18.9901 12Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M20.8843 0.69165L21.4315 2.36387L20.0093 1.33054H21.7621L20.3398 2.36387L20.8843 0.69165Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M20.8851 3.92236L21.4295 5.59181L20.0073 4.55847H21.7601L20.3379 5.59181L20.8851 3.92236Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M20.8851 7.15259L21.4295 8.82203L20.0073 7.7887H21.7601L20.3379 8.82203L20.8851 7.15259Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M20.8843 10.3833L21.4315 12.0555L20.0093 11.0222H21.7621L20.3398 12.0555L20.8843 10.3833Z"
-                                                    fill="white" />
-                                                <path
-                                                    d="M20.8851 13.6167L21.4295 15.2861L20.0073 14.2528H21.7601L20.3379 15.2861L20.8851 13.6167Z"
-                                                    fill="white" />
-                                            </g>
-                                        </g>
-                                        <defs>
-                                            <clipPath id="clip0">
-                                                <rect width="30" height="30" fill="white" />
-                                            </clipPath>
-                                        </defs>
-                                    </svg>
-                                    <span>ABŞ</span></button>
-
-                            </div>
-
-                            <div class="calc-left-side__calc-part"
-                                style=" border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
-
-                                <div class="range-article">
-
-                                    <p class="pepe" style="margin-left: -400px;">En</p>
-                                    <input type="text" id="textInput" value="50" class="inpuut">
-                                </div>
-
-                                <select class="form ">
-                                    <option value="sm">sm</option>
-                                    <option value="m">m</option>
-                                </select>
-                                <input type="range" name="rangeInput" value="50" min="0" max="100"
-                                    oninput="updateTextInput(this.value);" class="inpout">
-
-                            </div>
-                            <div class="calc-left-side__calc-part"
-                                style="border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
-
-                                <div class="range-article">
-
-                                    <p class="pepe" style="margin-left: -330px;">Hündürlük</p>
-                                    <input type="text" id="textInput2" value="50" class="inpuut">
-                                </div>
-
-                                <select class="form ">
-                                    <option value="sm">sm</option>
-                                    <option value="m">m</option>
-                                </select>
-                                <input type="range" name="rangeInput" value="50" min="0" max="100"
-                                    oninput="updateTextInput1(this.value);" class="inpout">
-
-                            </div>
-
-
-
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="calc-right-side">
-                            <div class="has6">
-                                <h6 class="hhh6">Bağlamanın Növü</h6>
-                            </div>
-                            <div class="baglama-nov">
-                                <button class="btn100"><span class="span5">Adi məhsul</span></button>
-                                <button class="btn100"><span class="span5">Maye və Kosmetika</span></button>
-                            </div>
-                            <div class="calc-left-side__calc-part"
-                                style=" border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
-
-                                <div class="range-article">
-
-                                    <p class="pepe">Uzunluq</p>
-                                    <input type="text" id="textInput3" value="50" class="inpuut">
-                                </div>
-
-                                <select class="form ">
-                                    <option value="sm">sm</option>
-                                    <option value="m">m</option>
-                                </select>
-                                <input type="range" name="rangeInput" value="50" min="0" max="100"
-                                    oninput="updateTextInput2(this.value);" class="inpout">
-
-                            </div>
-                            <div class="calc-left-side__calc-part"
-                                style=" border-radius: 5px; margin-left: 25px; margin-top: 30px; width: 90%;height: 68px;">
-
-                                <div class="range-article">
-
-                                    <p class="pepe" style="margin-right: -80px;">Bağlamanın çəkisi</p>
-                                    <input type="text" id="textInput4" value="50" class="inpuut">
-                                </div>
-
-                                <select class="form ">
-                                    <option value="sm">sm</option>
-                                    <option value="m">m</option>
-                                </select>
-                                <input type="range" name="rangeInput" value="50" min="0" max="100"
-                                    oninput="updateTextInput3(this.value);" class="inpout">
-
-                            </div>
-
-
-                        </div>
-                    </div>
-                  
-                    
-
-                    </div>
-
-
-
-
-                </div>
+          <div class="row abt">
+            <div class="col info">
+              <h2>Available for FREE!</h2>
+              <div class="aboutcolor"></div>
+              <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing
+                result-oriented ad copy is difficult, as it must appeal to, entice, and convince consumers to take
+                action. There is no magic formula to write perfect ad copy</p>
+              <a href="">Get It Now!</a>
             </div>
-        </div>
-    </section>
-  <h2>Nece Isleyirik?</h2>
-  <div class="container worktime">
-
-    <br />
-    <div style="display: flex;" class="row">
-      <div class="col-4">
-        <div class="onepart">
-          <div class="svgpart">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-book-fill"
-              viewBox="0 0 16 16">
-              <path
-                d="M8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783z" />
-            </svg>
-          </div>
-          <h1>Qeydiyyatdan kec</h1>
-          <p>
-            Saytımızda qeydiyyatdan keçməklə, xaricdə daimi ünvana sahib olun
-          </p>
-          <a href=""> <button class="btn btn-primary">Etrafli</button></a>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="twopart">
-          <div class="svgpart">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-wallet-fill"
-              viewBox="0 0 16 16">
-              <path
-                d="M1.5 2A1.5 1.5 0 0 0 0 3.5v2h6a.5.5 0 0 1 .5.5c0 .253.08.644.306.958.207.288.557.542 1.194.542.637 0 .987-.254 1.194-.542.226-.314.306-.705.306-.958a.5.5 0 0 1 .5-.5h6v-2A1.5 1.5 0 0 0 14.5 2h-13z" />
-              <path
-                d="M16 6.5h-5.551a2.678 2.678 0 0 1-.443 1.042C9.613 8.088 8.963 8.5 8 8.5c-.963 0-1.613-.412-2.006-.958A2.679 2.679 0 0 1 5.551 6.5H0v6A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-6z" />
-            </svg>
-          </div>
-          <h1>Ödəmə et</h1>
-          <p>
-            Visa, Master bank kartları E-Manat vasitəsi ilə ödəniş Yerində
-            nəğd ödəniş
-          </p>
-          <a href=""> <button class="btn btn-primary">Etrafli</button></a>
-        </div>
-      </div>
-      <div class="col-4">
-        <div class="threepart">
-          <div class="svgpart">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-box"
-              viewBox="0 0 16 16">
-              <path
-                d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
-            </svg>
-          </div>
-          <h1>Bağlamanı əldə et</h1>
-          <p>
-            Bağlamanı Bakı anbarımızdan əldə edə və ya kuryer xidmətimizdən
-            istifadə edə bilərsiniz.
-          </p>
-          <a href=""> <button class="btn btn-primary">Etrafli</button></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="tariflerrr">
-    <div class="tarifler">
-      <div class="d-flex bd-highlight tarifler-about">
-        <div class="p-2 flex-grow-1 bd-highlight one">Tarifler</div>
-
-        <div class="p-2 bd-highlight two">
-          <button data-currency-rate="1.7" data-currency="$"
-            data-price='[{"from_weight":0,"to_weight":0.1,"liquid_price":1,"price":1,"discounted_price":0.99},{"from_weight":0.101,"to_weight":0.249,"liquid_price":2,"price":2,"discounted_price":1.99},{"from_weight":0.25,"to_weight":0.499,"liquid_price":3,"price":3,"discounted_price":2.99},{"from_weight":0.5,"to_weight":0.749,"liquid_price":4,"price":4,"discounted_price":3.79},{"from_weight":0.75,"to_weight":0.999,"liquid_price":4.2,"price":4.2,"discounted_price":3.49},{"from_weight":1,"to_weight":4.999,"liquid_price":4.5,"price":4.5,"discounted_price":3.49},{"from_weight":5,"to_weight":9.999,"liquid_price":4.3,"price":4.3,"discounted_price":3.49},{"from_weight":10,"to_weight":9999999,"liquid_price":4,"price":4,"discounted_price":4}]'
-            class="btn btn--tab js-calculator-tab-c is-tab-active">
-            <img src="https://velocity.az/frontend/web/uploads//images/country/Turkey.svg" alt="Türkiyə" />
-            <span style="color: white;">Türkiyə</span>
-          </button>
-        </div>
-        <div class="p-2 bd-highlight three">
-          <button data-currency-rate="1.7" data-currency="$"
-            data-price='[{"from_weight":0.001,"to_weight":0.1,"liquid_price":1.5,"price":1.5,"discounted_price":null},{"from_weight":0.101,"to_weight":0.249,"liquid_price":2.5,"price":2.5,"discounted_price":null},{"from_weight":0.25,"to_weight":0.499,"liquid_price":4.5,"price":4.5,"discounted_price":null},{"from_weight":0.5,"to_weight":0.749,"liquid_price":5.5,"price":5.5,"discounted_price":5.5},{"from_weight":0.75,"to_weight":0.999,"liquid_price":6.5,"price":6.5,"discounted_price":6.5},{"from_weight":1,"to_weight":4.999,"liquid_price":7.95,"price":7.95,"discounted_price":7.95},{"from_weight":5,"to_weight":9.999,"liquid_price":7.5,"price":7.5,"discounted_price":7.5},{"from_weight":10,"to_weight":100000,"liquid_price":6.5,"price":6.5,"discounted_price":6.5}]'
-            class="btn btn--tab js-calculator-tab-c">
-            <img src="https://velocity.az/frontend/web/uploads//images/country/US.svg" alt="ABŞ" />
-            <span style="color: white">ABŞ</span>
-          </button>
-        </div>
-      </div>
-
-
-
-    </div>
-    <div class="container tarif-item">
-      <div class="row items">
-        <div class="col-3 item svg"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-            class="bi bi-box" viewBox="0 0 16 16">
-            <path
-              d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
-          </svg></div>
-        <div class="col-3 item">
-          <p style="color: white;"> 0.001 kq’dan 0.100 kq’a qədər</p>
-        </div>
-        <div class="col-3 item">
-          <span id="span">Adi mehsul</span><br>
-          <span style="color: white;font-size: 20px;">0.99 USD</span><br>
-          <span style="text-decoration: line-through;">1 USD</span>
-        </div>
-        <div class="col-3 item"> <span id="span">Maye ve Kosmetik</span><br>
-          <span style="color: white;font-size: 20px;">0.99 USD</span><br>
-          <span style="text-decoration: line-through;">1 USD</span>
-        </div>
-      </div>
-    </div>
-    <div class="container tarif-item">
-      <div class="row items">
-        <div class="col-3 item svg"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-            class="bi bi-box" viewBox="0 0 16 16">
-            <path
-              d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
-          </svg></div>
-        <div class="col-3 item">
-          <p style="color: white;"> 0.001 kq’dan 0.100 kq’a qədər</p>
-        </div>
-        <div class="col-3 item">
-          <span id="span">Adi mehsul</span><br>
-          <span style="color: white;font-size: 20px;">0.99 USD</span><br>
-          <span style="text-decoration: line-through;">1 USD</span>
-        </div>
-        <div class="col-3 item"> <span id="span">Maye ve Kosmetik</span><br>
-          <span style="color: white;font-size: 20px;">0.99 USD</span><br>
-          <span style="text-decoration: line-through;">1 USD</span>
-        </div>
-      </div>
-    </div>
-    <div class="container tarif-item">
-      <div class="row items">
-        <div class="col-3 item svg"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
-            class="bi bi-box" viewBox="0 0 16 16">
-            <path
-              d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5 8 5.961 14.154 3.5 8.186 1.113zM15 4.239l-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
-          </svg></div>
-        <div class="col-3 item">
-          <p style="color: white;"> 0.001 kq’dan 0.100 kq’a qədər</p>
-        </div>
-        <div class="col-3 item">
-          <span id="span">Adi mehsul</span><br>
-          <span style="color: white;font-size: 20px;">0.99 USD</span><br>
-          <span style="text-decoration: line-through;">1 USD</span>
-        </div>
-        <div class="col-3 item"> <span id="span">Maye ve Kosmetik</span><br>
-          <span style="color: white;font-size: 20px;">0.99 USD</span><br>
-          <span style="text-decoration: line-through;">1 USD</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shop-header">
-    <div class="container">
-      <div style="display: flex;flex-wrap: nowrap" class="row">
-        <div class="col-6">
-          <h2 class="shoph2" style="color: #c9ffc7; font-size: 40px;
-         line-height: 56px;">Magazalar</h2>
-        </div>
-        <div class="col-6">
-          <a href="#"><button class="shp">
-              Hamsina bax
-            </button></a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="shop-carusel">
-    <div class="carousel shopping" data-flickity='{ "groupCells": true }'>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-1.png"
-          alt="trendyol"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-2.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-3.png"
-          alt=""></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-4.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-5.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-6.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-7.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-8.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-9.png"
-          alt="defacto"></div>
-      <div class="carousel-cell shop"><img src="https://velocity.az/frontend/web/uploads//images/store/store-10.png"
-          alt="defacto"></div>
-
-    </div>
-  </div>
-  <div class="yenilikler">
-    <div class="container new">
-      <div class="row newitem">
-        <div class="col-6 items">
-          <div class="headitem">
-            <h2>Ne yenilik var?</h2>
-            <p>Ən son yeniliklər və xəbərlərlə tanış olun</p>
-            <div class="itembutton">
-              <a href="#"><button class="itms">Hamsina bax</button></a>
+            <div class="col about-img">
+              <img class="animate__animated animate__zoomIn" style="width: 570px;height: 423px;"
+                src="https://assets.website-files.com/5badda2935e11303a89a461e/5bb5c77ee73150e2021b0db4_side-image-01-p-1080.jpeg"
+                alt="">
             </div>
+
           </div>
         </div>
-        <div class="col-6 items">
-          <div class="part1">
-            <img src="https://velocity.az/frontend/web/uploads//images/slider/kicik.jpg" alt="img1">
-            <div class="part1about">
-              <a href="#">
-                <h1>Velocity Kargodan "Məktəb Qabağı" Möhtəşəm Endirim Kampanyası </h1>
+
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="subscribe animate__animated animate__zoomIn"">
+        <div class=" container sbs">
+      <div class="row ">
+        <div class="col">
+          <div style="display: flex;align-items: center;" class="sbscrb-info">
+            <div class="sbscrb-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
+              </svg>
+            </div>
+            <h4>
+              Subscribe to our newsletter
+              & get
+              <span>10% discount!</span>
+            </h4>
+          </div>
+        </div>
+        <div class="col">
+          <div style="display: flex;" class="inpt">
+            <input type="email" placeholder="Enter your email adress">
+            <button type="submit">Subscribe</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <section>
+    <div style="display: flex;flex-direction: column; justify-content: center;align-items: center;"
+      class="instagram animate__animated animate__zoomIn">
+      <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;" class="insintro">
+        <div class="title">
+          @ElasticThemes
+        </div>
+        <h2>We're on Instagram!</h2>
+
+
+      </div>
+      <div class="instimage">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="">
+                <img
+                  src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf79395558fbeb88a49_instagram-01.jpg"
+                  alt="">
               </a>
-              <p class="ptime">11.08.2021</p>
-              <a id="tamam" href="#">Tamamini oxu</a>
             </div>
-
+            <div class="col">
+              <a href=""><img
+                  src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf735e113f8679a57e6_instagram-02.jpg"
+                  alt=""></a>
+            </div>
+            <div class="col">
+              <a href=""><img
+                  src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf735e11327b99a57e7_instagram-03.jpg"
+                  alt=""></a>
+            </div>
+            <div class="col">
+              <a href=""><img
+                  src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf7939555df08b88a48_instagram-04.jpg"
+                  alt=""></a>
+            </div>
+            <div class="col">
+              <a href=""><img
+                  src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf7939555514eb88a4a_instagram-05.jpg"
+                  alt=""></a>
+            </div>
+            <div class="col">
+              <a href=""><img
+                  src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf71f2da2228d17155f_instagram-06.jpg"
+                  alt=""></a>
+            </div>
           </div>
-
         </div>
+
       </div>
-      <div class="row newitem">
-        <div class="col-6 items">
-          <div class="headitem">
-            <h2>Ne yenilik var?</h2>
-            <p>Ən son yeniliklər və xəbərlərlə tanış olun</p>
-            <div class="itembutton">
-              <a href="#"><button class="itms">Hamsina bax</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 items">
-          <div class="part1">
-            <img src="https://velocity.az/frontend/web/uploads//images/slider/kicik.jpg" alt="img1">
-            <div class="part1about">
-              <a href="#">
-                <h1>Velocity Kargodan "Məktəb Qabağı" Möhtəşəm Endirim Kampanyası </h1>
-              </a>
-              <p class="ptime">11.08.2021</p>
-              <a id="tamam" href="#">Tamamini oxu</a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
-      <div class="row newitem">
-        <div class="col-6 items">
-          <div class="headitem">
-            <h2>Ne yenilik var?</h2>
-            <p>Ən son yeniliklər və xəbərlərlə tanış olun</p>
-            <div class="itembutton">
-              <a href="#"><button class="itms">Hamsina bax</button></a>
-            </div>
-          </div>
-        </div>
-        <div class="col-6 items">
-          <div class="part1">
-            <img src="https://velocity.az/frontend/web/uploads//images/slider/kicik.jpg" alt="img1">
-            <div class="part1about">
-              <a href="#">
-                <h1>Velocity Kargodan "Məktəb Qabağı" Möhtəşəm Endirim Kampanyası </h1>
-              </a>
-              <p class="ptime">11.08.2021</p>
-              <a id="tamam" href="#">Tamamini oxu</a>
-            </div>
-
-          </div>
-
-        </div>
-      </div>
+      <a id="btn" href="">See More Photos</a>
     </div>
-  </div>
-
-  <footer style="margin-top: 60px;" class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="heading">
-            <h1 class="heading__title">Kömək lazımdır?</h1>
+  </section>
+  <footer>
+    <div class="footer">
+      <div class="container">
+        <div style="margin-top: 20px;" class="row">
+          <div class="col">
+            <div class="foter-left">
+              <a href="">ToyStore</a>
+            </div>
           </div>
-          <ul class="footer__contact">
-            <li>
-              <i style="margin-left: -40px;" class="icon-map-marker_two_tone icon-lg icons"><span
-                  class="path1"></span><span class="path2"></span><span class="path3"></span></i>
-              <a href="#"><span>Bakı şəh.,AZ1072, Nərimanov rayonu Koroğlu Rəhimov küçəsi Gəncə şəhəri Həsən Əliyev
-                  pr.75</span></a>
-            </li>
-            <li>
-              <i style="margin-left: -40px;" class="icon-email_two_tone icon-lg icons"><span class="path1"></span><span
-                  class="path2"></span><span class="path3"></span></i>
+          <div class="col">
+            <div class="foot-nav">
+              <ul>
 
-              <a href="#"><span> info@velocity.az </span></a>
+                <li> <a href="">Home</a> </li>
+                <li> <a href="">Catalog</a> </li>
+                <li><a href="">Delivery</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contacts</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col">
+            <div class="foot-social">
+              <ul>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-instagram" viewBox="0 0 16 16">
+                      <path
+                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                    </svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-twitter" viewBox="0 0 16 16">
+                      <path
+                        d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                    </svg></a></li>
+                <li><a href=""></a><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                  </svg></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path
+                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                    </svg></a></li>
+                <li><a href=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                      class="bi bi-youtube" viewBox="0 0 16 16">
+                      <path
+                        d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                    </svg></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="foter-line">
 
-            </li>
-            <li>
-              <i style="margin-left: -40px;" class="icon-phone_two_tone icon-lg icons"><span class="path1"></span><span
-                  class="path2"></span><span class="path3"></span></i>
-              <a href="#">+994123108707</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-6">
-          <ul style="margin-left:20px;margin-top: 30px;" class="footer__nav">
-            <li>
-              <a href="#">Daşınmasına icazə yoxdur</a>
-            </li>
-            <li>
-              <a href="#">Tez-tez verilən suallar</a>
-            </li>
-            <li>
-              <a href="#">Gizlilik siyasəti</a>
-            </li>
-            <li>
-              <a href="#">İstifadəçi razılaşması</a>
-            </li>
-            <li>
-              <a href="#">Sifariş et qaydaları</a>
-            </li>
-          </ul>
         </div>
       </div>
+
     </div>
-    <div class="footer-bottom">
-      <div class="ftrbtm">
-        <img src="https://velocity.az/front/img/logo/logo-white.svg" alt="">
-        <p style="color: rgba(255,255,255,0.7); margin-top: 20px;" class="copyright">©️ 2021 Velocity LTD. Bütün
-          hüquqlar qorunur</p>
-      </div>
-      <div class="social-icons d-none d-md-block">
-        <a href="https://www.facebook.com/" target="blank" class="social-icons_link"><i class="icon-facebook"></i></a>
-        <a href="https://www.instagram.com/" target="blank" class="social-icons_link"><i class="icon-instagram"></i></a>
-        <a style="margin-right: 150px;" href="https://www.youtube.com/" target="blank" class="social-icons_link"><i
-            class="icon-youtube"></i></a>
-      </div>
-    </div>
+
   </footer>
-
-
-
-
-
-
-  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+  </script>
 </body>
 
 </html>

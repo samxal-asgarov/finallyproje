@@ -1,0 +1,98 @@
+body{
+    a{
+        text-decoration: none;
+      
+    }
+    ul{
+        list-style: none;
+       display: flex;
+       justify-content: center;
+    
+     }
+      background-color: #f8f8f8;;
+    
+}
+
+.mainhead{
+  width: 100%;
+    height: 60px;
+    margin: 0%;
+    justify-content: center;
+    border: 1px solid none;
+    background-color: white;
+    position: fixed;
+    z-index: 999;
+    top: 0%;
+    
+
+   
+}
+.logo{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    padding:  23px;
+   
+    a{
+     
+        color: #333333;
+    }
+    
+}
+.nav{
+    li{
+        padding: 12px 18px;
+        a{
+            color: #111;
+            font-family: 'Open Sans', sans-serif;
+    
+    font-size: 14px;
+    line-height: 24px;
+            &:hover{
+                text-decoration: underline;
+                
+            }
+        }
+    }
+  
+}
+.commerce{
+    display: flex;
+  
+    
+        margin-left: 39%;
+   
+    li{
+       
+        padding: 12px 10px;
+       
+     
+    }
+    a{
+       margin-left: -22px;
+    }
+    .count{
+        height: 20px;
+    min-width: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-radius: 10px;
+    background-color: #a5c926;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    a{
+        svg{
+            
+            display: flex;
+          margin-top: -50%;
+           
+        }
+    }
+}
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <link rel="stylesheet" href="./index.css">
+
+  <style>
+    #map {
+      height: 400px;
+      /* The height is 400 pixels */
+      width: 1000px;
+      /* The width is the width of the web page */
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <main class="mainhead" style="display: flex;">
+      <div class="logo">
+        <a href="./index.html">ToyStore</a>
+      </div>
+      <div class="nav">
+        <ul>
+          <li> <a href="./catalog.html">Catalog</a> </li>
+          <li><a href="./delivery.html">Delivery</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./contact.html">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="commerce">
+        <ul>
+        
+          <li><a href=""> <img
+                src="https://assets.website-files.com/5badda2935e11303a89a461e/5baf75c3bf02346640399fec_cart-icon.svg"
+                alt=""> </a></li>
+                <div class="count">
+                  <span>0</span>
+                   </div>
+        </ul>
+      </div>
+
+    </main>
+  </header>
+
+  <section>
+    <div class="header-nav" style="margin-top: 80px;display: flex;align-items: flex-start;">
+      <ul>
+        <li>Home</li>
+        <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+          </svg></li>
+        <li>Catalog</li>
+      </ul>
+    </div>
+  </section>
+  <div class="contact">
+    <div style="margin-top: 5%;" id="map"></div>
+
+  </div>
+
+  <div class="contact-info">
+    <div class="container" style="margin-top: -45%;margin-left: 16%;">
+      <div class="row">
+        <div class="col ">
+          <h2 style="margin-top: 0px;
+            font-family: 'Varela Round', sans-serif;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 400;">Leave a Message</h2>
+          <form style="display: flex; flex-direction: column;" id="email-form" name="email-form" data-name="Email Form">
+            <label for="Contact-Name" class="label">Full
+              Name</label>
+              <input type="text" class="input w-input" maxlength="256" name="Contact-Name"
+              data-name="Contact Name" placeholder="Enter your name" id="Contact-Name"><label for="Contact-Email"
+              class="label">Email Address</label>
+              <input type="email" class="input w-input" maxlength="256"
+              name="Contact-Email" data-name="Contact Email" placeholder="Your contact email" id="Contact-Email"
+              required="">
+              <label for="Contact-Message" class="label">Email Address</label>
+              <textarea  id="Contact-Message"
+              name="Contact-Message" placeholder="Message text..." maxlength="5000" data-name="Contact Message"
+              required="" class="input text-area w-input"
+              style="margin: 0px -404px 24px 0px; width: 550px; height: 160px;"></textarea>
+              <input type="submit"
+              value="Send Message" data-wait="Please wait..." class="button w-button"></form>
+
+        </div>
+
+        <div class="col ">
+          <h2 style="   margin-top: 0px; font-family: 'Varela Round', sans-serif;
+           font-size: 24px;
+           line-height: 32px;
+           font-weight: 400;">Contact Info</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&libraries=&v=weekly&channel=2"
+    async></script>
+  <script>
+    function initMap() {
+      // The location of Uluru
+      const uluru = { lat: 40.1431, lng: 47.5769 };
+      // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: uluru,
+      });
+      // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+  </script>
+</body>
+
+</html>
