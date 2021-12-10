@@ -58,3 +58,22 @@ margin-left: 3%;
 .catalogline{
     width: 100%
 }
+@media screen and (max-width:376px){
+    .catalogline{
+        display: none;
+    }
+    .toyshead{
+        h2{
+            display: none;
+        }
+       
+    }
+    .toy{
+        margin-top: -239px;
+        ul{
+            display: flex;
+            flex-direction: row;
+        }
+
+    }
+ }

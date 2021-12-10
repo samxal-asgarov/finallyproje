@@ -7,6 +7,9 @@
      
      border-radius: 20px;
     background-color: white;
+    @media screen and (max-width:376px) {
+        margin-top:-62px ;
+    }
 }
 
 
@@ -69,5 +72,29 @@
     line-height: 24px;
     font-weight: 600;
     text-align: center;
+    }
+
+}
+.sbscrb-icon{
+    svg{
+        width: 84px;
+        height: 84px;
+        margin-top: -18px;
+    }
+}
+@media screen and(max-width:376px) {
+    .inpt{
+        input{
+            height: 50px;
+        }
+    }
+    .sbscrb-icon{
+        svg{
+            width: 84px;
+            height: 84px;
+        }
+    }
+    .sbs{
+        margin-left: 13px;
     }
 }

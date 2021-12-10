@@ -13,26 +13,13 @@ body{
     
 }
 
-.mainhead{
-  width: 100%;
-    height: 60px;
-    margin: 0%;
-    justify-content: center;
-    border: 1px solid none;
-    background-color: white;
-    position: fixed;
-    z-index: 999;
-    top: 0%;
-    
 
-   
-}
 .logo{
     font-family: 'Varela Round', sans-serif;
     font-size: 22px;
     line-height: 32px;
     font-weight: 400;
-    padding:  23px;
+   
    
     a{
      
@@ -40,59 +27,107 @@ body{
     }
     
 }
-.nav{
-    li{
-        padding: 12px 18px;
-        a{
-            color: #111;
-            font-family: 'Open Sans', sans-serif;
-    
-    font-size: 14px;
-    line-height: 24px;
-            &:hover{
-                text-decoration: underline;
-                
-            }
-        }
-    }
-  
-}
-.commerce{
-    display: flex;
-  
-    
-        margin-left: 39%;
-   
-    li{
-       
-        padding: 12px 10px;
-       
-     
-    }
+
+.section{
     a{
-       margin-left: -22px;
-    }
-    .count{
-        height: 20px;
-    min-width: 20px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    border-radius: 10px;
-    background-color: #a5c926;
-    color: #fff;
-    font-size: 12px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    }
-    a{
-        svg{
+        color: #111;
+        font-family: 'Open Sans', sans-serif;
+        &:hover{
+            text-decoration: underline;
             
-            display: flex;
-          margin-top: -50%;
-           
         }
     }
+}
+.basket{
+   .commerce{
+       width: 20px;
+       background-color: #a5c926;
+       border-radius: 50%;
+       display: flex;
+       align-items:center;
+       justify-content: center;
+       margin-left: -30px;
+       margin-top: -11px;
+       span{
+           color:white;
+       }
+      
+   }
+}
+.dropdown{
+ display: none;
 }
 
+#login{
+    color: black;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+.navigation {
+    margin-left: 7%;
+    width: 87%;
+    height: 48px;
+    margin-top: 48px;
+    margin-bottom: -8px;
+    padding: 9px 28px;
+    justify-content: flex-start;
+    align-items: center;
+    border: 2px solid #e5e5e5;
+    border-radius: 24px;
+    color: #999;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@media  screen and (max-width:376px){
+    .section{
+        display: none;
+    }
+    .dropdown{
+        display: inline;
+       }
+      .login{
+          display: none;
+      }
+     .logo{
+         h2{
+            margin-top: 9px;
+         }
+     }
+     .basket{
+         #sebet{
+            margin-top: 5px;
+            margin-left: -44px;
+         }
+         .commerce{
+            width: 20px;
+            background-color: #a5c926;
+            border-radius: 50%;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+            margin-left: -53px;
+            margin-top: 7px;
+            span{
+                color:white;
+            }
+           
+        }
+        .check{
+            margin-left: -7px;
+        }
+     }
+     .nav{
+         position: sticky !important;
+         background-color: white;
+         width: 100% !important;
+     }
+     .list{
+         li{
+             a{
+                 color: black;
+                 font-family: sans-serif;
+             }
+         }
+     }
+}

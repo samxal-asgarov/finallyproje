@@ -49,8 +49,8 @@
     a{
         svg{
             display: flex;
-            width: 44px;
-            height: 44px;
+            width: 86px;
+            height: 86px;
             padding: 20px;
              align-items: center;
             border-radius: 50%;
@@ -62,5 +62,9 @@
     
 }
 
-   
+   @media screen and(max-width:376px){
+    .watchstory{
+        background-position: 91% 94%;
+    }
+}
 

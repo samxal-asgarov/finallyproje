@@ -6,7 +6,8 @@
    .wrap1{
         border: 1px solid;
         padding: 2%;
-        width: 500px;
+        width: 40%;
+        height: 152px;
        border-radius: 16px;
        background-color: #ffc12c;
          color: #fff;
@@ -41,7 +42,7 @@
     }
     img{
         position: absolute;
-        left: 15px;
+        left: -16px;
         bottom: 26px;
         width: 220px;
     }
@@ -50,7 +51,8 @@
        background-color: pink;
        border: 1px solid;
        padding: 2%;
-       width: 500px;
+       width: 40%;
+       height: 152px;
        border-radius: 16px;
        background-color: #fb416b;
        color: #fff;
@@ -75,7 +77,7 @@
        
     img{
         position: absolute;
-        right: 21px;
+        right: 7px;
         bottom: 17px;
         width: 220px;
     }
@@ -86,75 +88,8 @@
     }
    }
 }
-@media  screen and (max-width:667px){
+@media  screen and (max-width:376px){
     .wrap{
-        display: flex;
-        flex-wrap: wrap;
-        width: 224px;
-        .wrap1{
-            border: 1px solid;
-            padding: 2%;
-            width: 136px;
-            height: 237px;
-           border-radius: 16px;
-           background-color: #ffc12c;
-             color: #fff;
-          position: relative;
-          right: 69%;
-          h1{
-            font-size: 11px;
-            margin-left: 20px;
-          }
-          a{
-            margin-left: 2px;
-            height: 21px;
-            padding: 10px 26px;
-            border-radius: 20px;
-            font-size: 10px;
-            line-height: 20px;
-          }
-          img{
-            position: absolute;
-            left: 12px;
-            bottom: 165px;
-            width: 120px;
-        }
-        }
-        .wrap2{
-            background-color: pink;
-       border: 1px solid;
-       padding: 2%;
-       width: 136px;
-            height: 237px;
-       border-radius: 16px;
-       background-color: #fb416b;
-       color: #fff;
-       position: relative;
-       right: 69%;
-       top:42px;
-       .wrap2info{
-           display: flex;
-           flex-wrap: wrap;
-       }
-       h1{
-        font-size: 11px;
-        margin-left: 20px;
-      }
-      a{
-        margin-left: 2px;
-        height: 21px;
-        padding: 5px 26px;
-        border-radius: 20px;
-        font-size: 10px;
-        line-height: 20px;
-      }
-      img{
-        position: absolute;
-        left: 12px;
-        bottom: 165px;
-        width: 120px;
-    }
-}
-
+      flex-wrap: wrap;
     }
 }

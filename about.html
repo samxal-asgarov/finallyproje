@@ -16,35 +16,99 @@
 </head>
 
 <body>
-    <header>
-        <main class="mainhead" style="display: flex;">
-            <div class="logo">
-                <a href="./index.html">ToyStore</a>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li> <a href="./catalog.html">Catalog</a> </li>
-                    <li><a href="./delivery.html">Delivery</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./contact.html">Contacts</a></li>
-                </ul>
-            </div>
+  <header>
+    <div style="background-color: white;width: 100%;z-index: 999; " class="nav">
+      <div style="display: flex;" class="container ">
+        <div class=" row ">
+          <div class="col logo">
+            <a href="./index.html">
+              <h2>Toy Store</h2>
+            </a>
+          </div>
+
+        </div>
+        <div class="row section " style="margin-left: 20%; margin-top: 1%;">
+          <div class="col-3 ">
+            <a href="./catalog.html">Catalog</a>
+          </div>
+          <div class="col-3">
+            <a href="./delivery.html">Delivery</a>
+          </div>
+          <div class="col-3">
+            <a href="./about.html">About</a>
+          </div>
+          <div class="col-3">
+            <a href="./contact.html">Contact</a>
+          </div>
+
+        </div>
+        <div class="row basket " style="margin-left: 20%;margin-top: 1%;">
+          <div class="col-3">
+            <svg id="sebet" xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor"
+              class="bi bi-cart-plus" viewBox="0 0 16 16">
+              <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z" />
+              <path
+                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+            </svg>
+          </div>
+          <div class="col-3">
             <div class="commerce">
-                <ul>
-                   
-                    <li><a href=""> <img
-                                src="https://assets.website-files.com/5badda2935e11303a89a461e/5baf75c3bf02346640399fec_cart-icon.svg"
-                                alt=""> </a></li>
-                                <div class="count">
-                                  <span>0</span>
-                                   </div>
-                </ul>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle check" type="button" id="dropdownMenu2"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list"
+                  viewBox="0 0 16 16">
+                  <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                <div style="display: flex; align-items: center;flex-direction: column; background-color: #a5c926;"
+                  class="list">
+                  <li><a href="./catalog.html">Catalog</a></li>
+                  <li><a href="./delivery.html">Delivery</a></li>
+                  <li><a href="./about.html">About</a></li>
+                  <li><a href="./contact.html">Contacts</a></li>
+                  <li><a href="./contact.html">Login</a></li>
+                </div>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-3">
+            <div class="login">
+              <ul>
+                <li> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-people-fill" viewBox="0 0 16 16">
+                    <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+                    <path fill-rule="evenodd"
+                      d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z" />
+                    <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z" />
+                  </svg></li>
+                <li> <a id="login" href="">Login</a></li>
+              </ul>
+
+
             </div>
 
-        </main>
-    </header>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+  </header>
     <section>
-        <div class="header-nav" style="margin-top: 80px;display: flex;align-items: flex-start;">
+        <div class="navigation" style="margin-top: 80px;display: flex;align-items: flex-start;margin-bottom: 17px;">
             <ul>
                 <li>Home</li>
                 <li><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
