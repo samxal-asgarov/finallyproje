@@ -7,16 +7,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ToyStore</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+   
+   
+  
+    
 </head>
 
 
 <body>
+ 
+
+
+
   <header>
     <div style="background-color: white;position: fixed;width: 100%;z-index: 999;" class="nav">
       <div style="display: flex;" class="container ">
@@ -130,11 +145,11 @@
 
   </section>
   <!-- bu qaldi responsive iphone x -->
-  <section>
-    <div class="wrap" style="display: flex;">
+   <section>
+    <div   class="wrap" style="display: flex;">
       <div class="wrap1 animate__animated animate__zoomIn" style="display: flex;">
         <img
-          src="https://assets.website-files.com/5badda2935e11303a89a461e/5badf21356ac5470c84dfbf4_33903-2-plush-toy-transparent-image-min-p-500.png"
+          src="./images/ayi.png"
           alt="">
         <div class="wrap1info">
           <h1>Stuffed Animals</h1>
@@ -148,11 +163,13 @@
         </div>
 
         <img
-          src="https://assets.website-files.com/5badda2935e11303a89a461e/5badf2131f2da24c02171c72_33727-9-wooden-toy-transparent-image-min-p-500.png"
+          src="./images/ulduz.png"
           alt="">
       </div>
     </div>
   </section>
+  
+
 
 
   <section>
@@ -181,9 +198,9 @@
       </div>
     </div>
     <div class="container">
-      <div class="row animate__animated animate__zoomIn cardimage">
+      <div  class="row">
         <div class=" col">
-          <div class="card">
+          <div data-aos="fade-up" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae12942ca03553bf0d536c_33903-2-plush-toy-transparent-image-min.png"
               class="card-img-top" alt="...">
@@ -194,7 +211,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae124e03ef144f2b4a9bef_33837-2-plush-toy-transparent-background-min.png"
               class="card-img-top" alt="...">
@@ -206,7 +223,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae0f7a1f2da258291736c4_33908-7-plush-toy-file-min.png"
               class="card-img-top" alt="...">
@@ -218,7 +235,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5bae0f1835e11376299a8089_33878-5-plush-toy-transparent-min.png"
               class="card-img-top" alt="...">
@@ -259,7 +276,7 @@
     <div class="container">
       <div class="row animate__animated animate__zoomIn">
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf529c7a16ad5b5fd9fdf3_33727-9-wooden-toy-transparent-image-min.png"
               class="card-img-top" alt="...">
@@ -270,7 +287,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf525bbf02340f30398cb3_33505-6-wooden-toy-clipart-min.png"
               class="card-img-top" alt="...">
@@ -282,7 +299,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf522457091399591a83fe_33631-9-wooden-toy-photo-min.png"
               class="card-img-top" alt="...">
@@ -294,7 +311,7 @@
           </div>
         </div>
         <div class="col">
-          <div class="card">
+          <div data-aos="zoom-in" class="card">
             <img
               src="  https://assets.website-files.com/5baddb6a35e113da0e9a4802/5baf51fc570913c1d31a83f6_33504-4-wooden-toy-transparent-min.png"
               class="card-img-top" alt="...">
@@ -342,7 +359,7 @@
       <div class="container">
         <div class="row abt">
         <div class="str">
-          <div class="col-6 info">
+          <div  class="col-6 info">
             <h2>Available for FREE!</h2>
             <div class="aboutcolor"></div>
             <p>A successful marketing plan relies heavily on the pulling-power of advertising copy. Writing
@@ -350,8 +367,8 @@
               action. There is no magic formula to write perfect ad copy</p>
             <a href="">Get It Now!</a>
           </div>
-          <div class="col-6 about-img">
-            <img class=" animate__animated animate__zoomIn im1" style=" width: 100%;
+          <div data-aos="zoom-in" class="col-6 about-img">
+            <img class="  im1" style=" width: 100%;
                 
                height: 423px;"
               src="https://assets.website-files.com/5badda2935e11303a89a461e/5bb5c77ee73150e2021b0db4_side-image-01-p-1080.jpeg"
@@ -366,10 +383,10 @@
     </div>
   </section>
   <section>
-    <div class="subscribe animate__animated animate__zoomIn">
+    <div class="subscribe">
         <div class=" container sbs">
-      <div class="row ">
-        <div class="col">
+      <div data-aos="zoom-in" class="row ">
+        <div  class="col">
           <div style="display: flex;align-items: center;" class="sbscrb-info">
             <div class="sbscrb-icon">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram"
@@ -399,7 +416,7 @@
   </section>
   <section>
     <div style="display: flex;flex-direction: column; justify-content: center;align-items: center;"
-      class="instagram animate__animated animate__zoomIn">
+      class="instagram">
       <div style="display: flex;flex-direction: column;align-items: center;justify-content: center;" class="insintro">
         <div class="title">
           @ElasticThemes
@@ -411,34 +428,34 @@
       <div class="instimage">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div data-aos="zoom-in" class="col">
               <a href="">
                 <img
                   src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf79395558fbeb88a49_instagram-01.jpg"
                   alt="">
               </a>
             </div>
-            <div class="col">
+            <div data-aos="zoom-in" class="col">
               <a href=""><img
                   src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf735e113f8679a57e6_instagram-02.jpg"
                   alt=""></a>
             </div>
-            <div class="col">
+            <div data-aos="zoom-in" class="col">
               <a href=""><img
                   src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf735e11327b99a57e7_instagram-03.jpg"
                   alt=""></a>
             </div>
-            <div class="col">
+            <div data-aos="zoom-in" class="col">
               <a href=""><img
                   src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf7939555df08b88a48_instagram-04.jpg"
                   alt=""></a>
             </div>
-            <div class="col">
+            <div data-aos="zoom-in" class="col">
               <a href=""><img
                   src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf7939555514eb88a4a_instagram-05.jpg"
                   alt=""></a>
             </div>
-            <div class="col">
+            <div data-aos="zoom-in" class="col">
               <a href=""><img
                   src="https://assets.website-files.com/5badda2935e11303a89a461e/5badecf71f2da2228d17155f_instagram-06.jpg"
                   alt=""></a>
@@ -511,8 +528,14 @@
     </div>
 
   </footer>
-
-
+ 
+  
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

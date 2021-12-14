@@ -44,6 +44,9 @@
     }
 }
 .inpt{
+    @media screen and (max-width:376px) {
+        flex-wrap: wrap;
+    }
     input{
         margin-right: 26px;
         margin-bottom: 0px;
@@ -86,7 +89,11 @@
     .inpt{
         input{
             height: 50px;
+            padding-right: 11px;
         }
+    }
+    button{
+        margin-top: 13px;
     }
     .sbscrb-icon{
         svg{
@@ -95,6 +102,16 @@
         }
     }
     .sbs{
-        margin-left: 13px;
+        margin-left: 50px;
+    }
+    .subscribe{
+        width: 294px;
+    }
+    .navigation{
+        margin-top: 30px;
+        margin-left: -1px;
+        ul{
+           margin-left: -40px;
+        }
     }
 }

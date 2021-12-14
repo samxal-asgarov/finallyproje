@@ -1,5 +1,5 @@
 .header-nav{
-margin-left: 3%;
+    margin-left: 3%;
     width: 90%;
     height: 48px;
     margin-top: 48px;
@@ -75,5 +75,14 @@ margin-left: 3%;
             flex-direction: row;
         }
 
+    }
+    .card{
+        width: 87%
+    }
+    .sbs{
+        margin-top: 35px;
+    }
+    .sbscrb-info{
+        flex-direction: column;
     }
  }

@@ -19,6 +19,9 @@ body {
   font-weight: 400; }
   .logo a {
     color: #333333; }
+    .logo a h2 {
+      margin-top: 5px;
+      color: #a5c926; }
 
 .section a {
   color: #111;
@@ -48,6 +51,7 @@ body {
 
 .navigation {
   margin-left: 7%;
+  margin-top: 30px !important;
   width: 87%;
   height: 48px;
   margin-top: 48px;
@@ -85,14 +89,23 @@ body {
     .basket .commerce span {
       color: white; }
   .basket .check {
-    margin-left: -7px; }
+    margin-left: 6px;
+    margin-top: 0px; }
   .nav {
     position: sticky !important;
     background-color: white;
     width: 100% !important; }
   .list li a {
     color: black;
-    font-family: sans-serif; } }
+    font-family: sans-serif; }
+  header {
+    width: 100%; } }
+
+.aboutpart2 .info {
+  margin-left: 55%; }
+
+.aboutpart2 .about-img {
+  margin-left: -50%; }
 
 body {
   margin: 0%;
@@ -174,6 +187,9 @@ body {
     color: #fff;
     position: relative;
     right: 2%; }
+    @media screen and (max-width: 376px) {
+      .wrap .wrap1 {
+        padding: 100%; } }
     .wrap .wrap1 h1 {
       margin-top: 0px;
       margin-bottom: 16px;
@@ -181,6 +197,9 @@ body {
       font-size: 28px;
       line-height: 36px;
       font-weight: 400; }
+      @media screen and (max-width: 376px) {
+        .wrap .wrap1 h1 {
+          margin-left: -43px; } }
     .wrap .wrap1 a {
       height: 40px;
       padding: 8px 24px;
@@ -193,11 +212,19 @@ body {
       position: absolute;
       top: 30%;
       right: 20%; }
+      @media screen and (max-width: 376px) {
+        .wrap .wrap1 .wrap1info {
+          top: 52%;
+          right: 11%; } }
     .wrap .wrap1 img {
       position: absolute;
       left: -16px;
       bottom: 26px;
       width: 220px; }
+      @media screen and (max-width: 376px) {
+        .wrap .wrap1 img {
+          left: 20px;
+          bottom: 131px; } }
   .wrap .wrap2 {
     background-color: pink;
     border: 1px solid;
@@ -208,6 +235,10 @@ body {
     background-color: #fb416b;
     color: #fff;
     position: relative; }
+    @media screen and (max-width: 376px) {
+      .wrap .wrap2 {
+        padding: 100%;
+        margin-top: 67px; } }
     .wrap .wrap2 h1 {
       margin-top: 0px;
       margin-bottom: 16px;
@@ -215,6 +246,10 @@ body {
       font-size: 28px;
       line-height: 36px;
       font-weight: 400; }
+      @media screen and (max-width: 376px) {
+        .wrap .wrap2 h1 {
+          margin-top: 38px;
+          margin-left: 4px; } }
     .wrap .wrap2 a {
       height: 40px;
       padding: 8px 24px;
@@ -223,19 +258,32 @@ body {
       line-height: 24px;
       background-color: #fff;
       color: #111; }
+      @media screen and (max-width: 376px) {
+        .wrap .wrap2 a {
+          margin-left: 32px; } }
     .wrap .wrap2 img {
       position: absolute;
       right: 7px;
       bottom: 17px;
       width: 220px; }
+      @media screen and (max-width: 376px) {
+        .wrap .wrap2 img {
+          width: 161px;
+          right: 55px;
+          top: -50px; } }
     .wrap .wrap2 .wrap2info {
       position: absolute;
       left: 20%;
       top: 30%; }
 
+.sld {
+  display: none; }
+
 @media screen and (max-width: 376px) {
   .wrap {
-    flex-wrap: wrap; } }
+    flex-wrap: wrap; }
+  .card {
+    width: 100% !important; } }
 
 .category a {
   color: #111;
@@ -248,12 +296,19 @@ body {
   padding-bottom: 2px;
   border-bottom: 2px solid #ddd; }
 
+@media screen and (max-width: 376px) {
+  .category-head {
+    margin-top: 176.5%; } }
+
 .category-head h1 {
   font-family: 'Varela Round', sans-serif;
   font-size: 28px;
   line-height: 36px;
   font-weight: 400;
   margin-top: 9.5%; }
+  @media screen and (max-width: 376px) {
+    .category-head h1 {
+      margin-bottom: 2.5%; } }
 
 .category-head-a a {
   color: #111;
@@ -323,7 +378,9 @@ body {
     margin-top: 230px; }
   .category-head-b h1 {
     font-size: 26px  !important;
-    margin-top: 230px; } }
+    margin-top: 230px; }
+  .category .row {
+    margin-top: 316px; } }
 
 .watchstory {
   position: relative;
@@ -501,6 +558,10 @@ body {
   .sbscrb-info h4 span {
     color: #a5c926; }
 
+@media screen and (max-width: 376px) {
+  .inpt {
+    flex-wrap: wrap; } }
+
 .inpt input {
   margin-right: 26px;
   margin-bottom: 0px;
@@ -534,12 +595,22 @@ body {
 
 @media screen and (max-width: 376px) {
   .inpt input {
-    height: 50px; }
+    height: 50px;
+    padding-right: 11px; }
+  button {
+    margin-top: 13px; }
   .sbscrb-icon svg {
     width: 84px;
     height: 84px; }
   .sbs {
-    margin-left: 13px; } }
+    margin-left: 50px; }
+  .subscribe {
+    width: 294px; }
+  .navigation {
+    margin-top: 30px;
+    margin-left: -1px; }
+    .navigation ul {
+      margin-left: -40px; } }
 
 .insintro .title {
   margin-bottom: 16px;
@@ -547,6 +618,9 @@ body {
   font-size: 13px;
   line-height: 16px;
   font-weight: 600; }
+  @media screen and (max-width: 376px) {
+    .insintro .title {
+      margin-left: -57px; } }
 
 .insintro h2 {
   margin-top: 0px;
@@ -554,6 +628,14 @@ body {
   font-size: 32px;
   line-height: 40px;
   font-weight: 400; }
+  @media screen and (max-width: 376px) {
+    .insintro h2 {
+      margin-left: -57px; } }
+
+@media screen and (max-width: 376px) {
+  .insta {
+    width: 62%;
+    margin-left: 46px; } }
 
 .instimage img {
   margin-top: 50px;
@@ -562,6 +644,10 @@ body {
   border-radius: 12px; }
   .instimage img:hover {
     transform: scale(1.05); }
+  @media screen and (max-width: 376px) {
+    .instimage img {
+      width: 80px;
+      height: 80px; } }
 
 #btn {
   margin-top: 50px;
@@ -575,6 +661,10 @@ body {
   line-height: 24px;
   font-weight: 600;
   text-align: center; }
+  @media screen and (max-width: 376px) {
+    #btn {
+      padding: 9px 28px;
+      margin-left: -50px; } }
 
 .instagram {
   margin-top: 10%; }
@@ -594,6 +684,9 @@ body {
   font-size: 22px;
   line-height: 32px;
   font-weight: 400; }
+  @media screen and (max-width: 376px) {
+    .foter-left a {
+      margin-left: 133px; } }
 
 .foot-nav a {
   padding-right: 15px;
@@ -605,6 +698,9 @@ body {
   padding: 4px;
   color: #fff;
   text-decoration: none; }
+  @media screen and (max-width: 376px) {
+    .foot-nav a {
+      margin-left: -7px; } }
 
 .foot-social svg {
   padding-right: 12px;
@@ -673,12 +769,18 @@ body {
     margin-top: -239px; }
     .toy ul {
       display: flex;
-      flex-direction: row; } }
+      flex-direction: row; }
+  .card {
+    width: 87%; }
+  .sbs {
+    margin-top: 35px; }
+  .sbscrb-info {
+    flex-direction: column; } }
 
 .delivery {
   display: flex;
   overflow: hidden;
-  width: 60%;
+  width: 80%;
   margin-top: 56px;
   margin-left: 60px;
   padding: 100px;
@@ -687,7 +789,7 @@ body {
   background-color: #fff;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-left: 19%;
+  margin-left: 11%;
   margin-right: 12%; }
 
 .infoleft {
@@ -708,8 +810,8 @@ body {
 
 .inforight {
   display: flex;
-  width: 220px;
-  height: 88px;
+  width: 37%;
+  height: 34%;
   padding: 60px;
   flex-direction: column;
   flex: 0 auto;
@@ -738,9 +840,22 @@ body {
   list-style-type: disc;
   display: inline-block; }
 
+@media screen and (max-width: 376px) {
+  .deliveryinfo {
+    flex-direction: column; }
+  .inforight {
+    margin-left: -10px;
+    width: 100%; }
+  .infoleft {
+    margin-left: -57px;
+    width: 100%;
+    margin-top: -68px; }
+  .delivery {
+    padding: 71px; } }
+
 .about {
   display: flex;
-  padding: 120px 24px;
+  padding: 50px 24px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -788,10 +903,30 @@ body {
   border-radius: 16px;
   margin-left: 15%; }
   .aboutimage img {
-    width: 80%;
+    width: 0%;
     margin-top: 64px;
     border-radius: 16px;
     margin: 0%; }
+
+.info-2 {
+  margin-left: 55%; }
+
+.str {
+  margin-top: 5%; }
+
+@media screen and (max-width: 376px) {
+  .about {
+    margin-top: 2px; }
+  .about-info {
+    width: 100% !important; }
+    .about-info h2 {
+      font-size: 21px !important;
+      margin-left: -6px; }
+    .about-info p {
+      margin-left: -33px; }
+  .info {
+    margin-top: 57px;
+    margin-left: 0px !important; } }
 
 .contact {
   width: 1000px;
@@ -806,6 +941,24 @@ body {
   background-color: white;
   border-radius: 16px;
   align-items: center; }
+
+.contactright span {
+  font-size: 12px; }
+
+.contactright h3 {
+  font-family: 'Varela Round', sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-top: 0px;
+  margin-top: 25px; }
+
+.numberadress {
+  margin-top: 20px; }
+
+.foot-social {
+  background-color: #a5c926;
+  width: 40%; }
 
 .border {
   border: 1px solid none;
